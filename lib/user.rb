@@ -11,9 +11,9 @@ attr_accessor :first_name, :last_name
       @knowledge << knowledge
     end
 
-    def knowledge 
+    def knowledge
       @knowledge
-      
+
     end
 
 end
