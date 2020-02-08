@@ -8,7 +8,7 @@ attr_accessor :first_name, :last_name
     end
 
     def learn(knowledge)
-      @@knowledge << knowledge
+      @knowledge << knowledge
 
     end
 
