@@ -13,7 +13,10 @@ attr_accessor :first_name, :last_name
 
     def knowledge
       @knowledge
+    end
 
+    def teach
+      KNOWLEDGE.sample
     end
 
 end
