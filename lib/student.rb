@@ -1,4 +1,4 @@
 require "lib/user.rb"
-class Student 
+class Student
 
 end
