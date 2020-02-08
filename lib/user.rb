@@ -1,3 +1,4 @@
+require 'pry'
 class User
 attr_accessor :first_name, :last_name
 
@@ -16,6 +17,7 @@ attr_accessor :first_name, :last_name
     end
 
     def teach
+      binding.pry
       KNOWLEDGE.sample
     end
 
